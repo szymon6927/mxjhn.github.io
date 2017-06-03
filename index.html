@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
         <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+        <link rel="stylesheet" href="/mxjhn.github.io/css/jquery.mmenu.all">
         <link rel="stylesheet" href="/mxjhn.github.io/css/private.css">
 
 
@@ -26,12 +27,39 @@
         <script src="/mxjhn.github.io/js/jquery-3.2.1.min.js"></script>
         <script src="/mxjhn.github.io/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+        <script src="/mxjhn.github.io/js/jquery.mmenu.all"></script>
         <script src="/mxjhn.github.io/js/private.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <!-- The page -->
+        <div class="page">
+            <div class="header">
+                <a href="#menu"></a>
+                Demo
+            </div>
+            <div class="content">
+                <p><strong>This is a demo.</strong><br />
+                    Click the menu icon to open the menu.</p>
+            </div>
+        </div>
+
+        <!-- The menu -->
+        <nav id="menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About us</a>
+                    <ul>
+                        <li><a href="/about/history">History</a></li>
+                        <li><a href="/about/team">The team</a></li>
+                        <li><a href="/about/address">Our address</a></li>
+                    </ul>
+                </li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
         <div class="container">
         	<div class="row">
         		<div class="col-sm-12">
