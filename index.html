@@ -14,43 +14,21 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <!-- CSS files -->
-        <link rel="stylesheet" href="/mxjhn.github.io/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/mxjhn.github.io/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Telex" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-        <link rel="stylesheet" href="/mxjhn.github.io/css/jquery.mmenu.all.css">
-        <link rel="stylesheet" href="/mxjhn.github.io/css/private.css">
+        <link rel="stylesheet" href="css/jquery.mmenu.all.css">
+        <link rel="stylesheet" href="css/hamburgers.css">
+        <link rel="stylesheet" href="css/private.css">
 
 
         <!-- JS files -->
-        <script src="/mxjhn.github.io/js/jquery-3.2.1.min.js"></script>
-        <script src="/mxjhn.github.io/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-        <script src="/mxjhn.github.io/js/jquery.mmenu.all.js"></script>
-        <script src="/mxjhn.github.io/js/private.js"></script>
-
-
-        <script type="text/javascript">
-            jQuery(document).ready(function( $ ) {
-                $("#menu").mmenu({
-                    "extensions": [
-                        "pagedim-black"
-                    ],
-                    "navbars": [
-                        {
-                            "position": "top",
-                            "content": [
-                                "searchfield"
-                            ]
-                        },
-                        {
-                            "position": "top"
-                        },
-                    ]
-                });
-            });
-        </script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.mmenu.all.js"></script>
+        <script src="js/private.js"></script>
 
     </head>
     <body>
@@ -72,18 +50,50 @@
             </ul>
         </nav>
 
-        <!-- The page -->
-        <div class="page">
-        <div class="header">
-            <a href="#menu"></a>
-            Demo
-        </div>
-        <div class="content">
-            <p><strong>This is a demo.</strong><br />
-                Click the menu icon to open the menu.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="header">
+                    <a href="#menu">
+                        <button class="hamburger hamburger--spring" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                            <span class="hamburger-label">Menu</span>
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
 
+        <div class="container">
+            <section class="about-me">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img class="face-img" src="img/face.jpg" class="img-responsive" alt="my photo">
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="page-header">
+                            <h1 class="text-center first-title">Hi! I'm Szymon Miks</h1>
+                        </div>
+                        <div class="page-subheader">
+                            <h1 class="text-center">
+                                Full-Stack Developer<br />
+                            </h1>
+                            <h2 class="text-center">
+                                Based in Lębork, Poland
+                            </h2>
+                            <h3 class="text-center">
+                                Working at <a href="https://www.miroart.pl" taget="_blank">@MiroArt</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="second">
+            
+        </section>
 
         <div class="container">
         	<div class="row">
