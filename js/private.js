@@ -43,6 +43,9 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('body').find('a').each(function(){
-        $(this).attr('target', '_blank');
+        var attr = $(this).attr('href');
+        if (typeof attr !== typeof undefined && attr !== false) {
+            $(this).attr('target', '_blank');
+        }
     });
 });
