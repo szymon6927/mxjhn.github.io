@@ -40,3 +40,9 @@ $(document).ready(function(){
         }
     })
 })
+
+$(document).ready(function(){
+    $('body').find('a').each(function(){
+        $(this).attr('target', '_blank');
+    });
+});
