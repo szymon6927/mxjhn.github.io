@@ -12,8 +12,8 @@ a {
 }
 
 body {
-    background: #161616;
-    color: #fff;
+    background: #ECF0F1;
+    color: #000;
     font-family: 'Telex', sans-serif;
 }
 
@@ -35,9 +35,16 @@ body {
     top: 0;
     left: 20px;
 }
+.hamburger {
+    color: #fff;
+}
 .header {
-    background-color: #A2A2A2;
+    background-color: #2C3E50;
     border-bottom: 1px solid #fff;
+    margin-bottom: 40px;
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: #fff;
 }
 .hamburger-label {
     position: relative;
@@ -52,8 +59,12 @@ body {
     border-radius: 15px;
 }
 .second {
-    background-color: #7C594A;
+    background-color: #E74C3C;
+    color: #fff;
     margin: 40px 0;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
 }
 section {
     padding: 40px 0;
@@ -61,15 +72,87 @@ section {
 .apki {
     border-radius: 10%;
 }
+#apki {
+    margin-bottom: 30px;
+}
 .coperate {
     margin: 0;
     padding: 30px 0;
 }
 .third {
-    background-color: #7C594A;
+    background-color: #E74C3C;
+    color: #fff;
     margin: 40px 0;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
 }
 .fourth {
-    background-color: #7C594A;
-    margin: 40px 0;
+    background-color: #ffffff;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+.phpmysql {
+    padding-top: 25px;
+}
+.mysql {
+    padding-left: 40px;
+}
+.fifth {
+    background-color: #3498DB;
+    color: #fff;
+    box-shadow: inset 0px -5px 15px -1px rgba(50, 50, 50, 0.5);
+}
+.sixth {
+    background: #E74C3C;
+    color: #fff;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    box-shadow: inset 0px -5px 15px -1px rgba(50, 50, 50, 0.5);
+}
+.footer-below {
+    padding: 15px 0;
+    background: #2C3E50;
+    color: #fff;
+}
+.br-lr {
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+}
+.page-header {
+    border-bottom: 2px solid #000;
+}
+.hover-img {
+    margin: 0 auto;
+    opacity: 0.8;
+    transition: 0.3s all ease;
+}
+.hover-img:hover {
+    opacity: 1;
+}
+.created {
+    float: right;
+    margin: 0;
+}
+.copyright {
+    float: left;
+}
+.copyright > a {
+    color: #fff;
+}
+.social {
+    display: inline-block;
+    font-size: 35px;
+    padding: 0 5px;
+}
+.social > a {
+    color: #fff;
+}
+.social > a:hover {
+    color: #e74c3c;
+}
+.social-top {
+    float: right;
+    margin-right: 25px;
+    padding: 6px 0px
 }
